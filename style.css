@@ -1,0 +1,65 @@
+
+.txt
+{
+    text-align: center;
+}
+.th
+{
+    text-align: center;
+}
+.img{
+    
+    height: 30px;
+    width: 3px;
+    
+}
+.box
+{
+    height: 400px;
+    width: 750px;
+    margin: 27px;
+    border: 5px solid black;
+    padding: 30px;
+}
+.box-in
+{
+    
+    height: 230px;
+    width: 700px;
+    border: 3px solid black;
+    padding: 20px;
+
+}
+.col
+{
+    font-size: 25px;
+    display: flex;
+    gap: 2rem;
+    justify-content:end;
+
+}
+.col-1
+{
+    font-size: 30px ;
+    display: flex;
+    gap: 7.3rem;
+    justify-content: end;
+}
+button
+{
+border: none;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    cursor: pointer;
+}
+.bt
+{
+display: flex;
+flex-direction: row;
+justify-content: end;
+gap: 3rem;
+}
+    
