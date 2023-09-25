@@ -1,81 +1,118 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event</title>
-    <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="box">
-        <h1 class="txt"> Event 1</h1>
-        <h3 class="th"> Number of available seats : 23</h3>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-<div class="box-in">
+  <div id ="container">
+    <div id="head">
+      <h1> Event 1</h1> 
+      <h3> Number of seats 23</h3>
+<div id="frm">
 
-    <div class="img">
-    <div class="card" style="width: 16rem;">
-        <img src="https://th.bing.com/th/id/OIP.BUcaCITw7VL_HSabKl2u9QHaHa?w=201&h=201&c=7&r=0&o=5&pid=1.7" class="card-img-top" alt="...">
-        <div class="card-body">
-        </div>
-      </div>
-    </div>
-
-    <div class="row"> 
-        <div class="col"> Name :
-          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-        </div>
-
-        <div class="row">
-            <div class="col"> Email :
-              <input type="email" class="form-control" placeholder="Enter the Email" aria-label="First name">
-            </div>
-
-            <div class="row">
-                <div class="col"> Phone No :
-                  <input type="number" class="form-control" placeholder=" Enter the Number" aria-label="First name">
-                </div>
-<diV class="row">
-    <div class="col-1"> Number of seats :
-                <select class="form-select" aria-label="Default select example" >
-                    <option selected >Select seats</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                  </select>
-                </div>
-                </diV>
-    <div class="row">
-        <div class="col"> Name Of Attendee 2:
-          <input type="text" class="form-control" placeholder="" aria-label="First name">
-        </div>
-
+  <div id="img">
+<div class="pt">
+  <div class="row">
+    <img src="https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-21/ratings-collective/f20assets/player-headshots/20801.png" class="rounded" alt="...">
+  </div>
 </div>
-<div class="bt">
-<button type="submit" class="btn btn-light">Submit</button> 
-  <button type="cancle" class="btn btn-light">Cancle</button>
 </div>
+
+
+  <div id="name">
+  <div class="row">
+    <div class="col"> <strong> Name :</strong> 
+      <input type="text" class="edit" placeholder="Enter the Name" aria-label="First name">
     </div>
+  </div>
+</div>
+
+<div id="emi">
+<div class="row">
+  <div class="col"> <strong> Email :</strong>
+    <input type="email" class="edit" placeholder="Enter the email" aria-label="email">
+  </div>
+</div>
+</div>
+
+<div id="ph">
+<div class="row">
+  <div class="col"> <strong>Phone :</strong>
+    <input type="number" class="edit" placeholder="Enter the Number" aria-label="Number">
+  </div>
+</div>
+</div>
+
+
+<div id="set">
+<div class="row">
+<div class="seat"> <strong>Number of Seats :</strong>
+  <select class="edit" aria-label="Default select example">
+    <option selected> select Seats</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+    <option value="13">13</option>
+    <option value="14">14</option>
+    <option value="15">15</option>
+    <option value="16">16</option>
+    <option value="17">17</option>
+    <option value="18">18</option>
+    <option value="19">19</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
     
+
+  </select>
+</div>
+</div>
+</div>
+
+
+<div id="atte">
+<div class="row">
+<div class="col"> <strong> Name of Attencee :</strong> 
+<input type="text" class="edit" placeholder="" aria-label="text">
+</div>
+</div>
+</div>
+
+<div id="btn">
+
+<button type="button" class="btn btn-dark"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+ Submit 
+</button>
+<button type="button" class="btn btn-dark"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Cancel
+</button>
+</div>
+
+
+
+
+
+
+</div>
+    </div>
+ </div>
 </body>
 </html>
